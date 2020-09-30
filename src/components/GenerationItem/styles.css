@@ -1,0 +1,31 @@
+.generation-item {
+    background: var(--color-background-card);
+    border-radius: 0.8rem 0 0.8rem 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.generation-item header {
+    background: var(--color-background-card);
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.generation-item header strong {
+    padding: 1rem 2rem;
+    font: 700 2.4rem;
+    display: block;
+    color: var(--color-title-card);
+}
+
+@media (min-width: 700px) {
+    .generation-item {
+        padding: 0;
+    }
+}

@@ -1,0 +1,47 @@
+:root {
+    font-size: 60%;
+
+    --color-background: #003f86;
+    --color-background-card: #6898c9;
+    --color-primary: #ffffff;
+    --color-secondary: #fdc800;
+    --color-secondary-light: #fcbb00;
+    --color-secundary-dark: #bc6e02;
+    --color-title-card: #89030a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-primary);
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body, button {
+    font: 500 1.6rem Montserrat;
+}
+
+.container {
+    width: 90vw;
+    max-width: 700px;
+}
+
+@media(min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

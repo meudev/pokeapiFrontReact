@@ -1,0 +1,22 @@
+#page-generation-list {
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-generation-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+@media (min-width: 700px) {
+    #page-generation-list {
+        max-width: 100vw;
+    }
+
+    #page-generation-list main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+
+}
